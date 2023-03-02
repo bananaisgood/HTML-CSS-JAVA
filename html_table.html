@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+  <style>
+    table, th,td{
+    border:1px solid blue;
+    border-collapse:collapse;
+    }
+  </style>
 </head>
 <body>
+<table>
+<caption>상품 구성</caption>
+  <thead>
+<tr>
+  <th>용도</th>
+  <th>개수</th>
+  <th>가격</th>
+</tr>
+  </thead>
 
-<img src="이미지주소">:이미지를 출력
-<div>내용</div>:내용을 박스에 출력
-<input type="text" placeholder="제목 입력"> :입력 필드를 작성
-<textarea>내용입력</textarea><br>
-<input type="password">
-<input type="text" value="010-">
-<input type="text" value="010-1234-5678" readonly>
-<textarea rows="13" cols="50"></textarea>
-<img src="https://www.seoclerk.com/pics/523331-1e2qQI1490977998.jpg" width="200px" height="100px">
+  <tbody>
+  <tr>
+  <td>선물용</td>
+  <td rowspan="2">11~15과</td>
+  <td>30000</td>
+  </tr>
+  <tr>
+  <td>가정용</td>
+  <td>20000</td>
+  </tr>
+  </tbody>
+
+</table>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
